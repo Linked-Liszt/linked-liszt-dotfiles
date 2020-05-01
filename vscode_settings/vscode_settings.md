@@ -33,3 +33,14 @@
         "--generated-members=numpy.* ,torch.* ,cv2.* , cv.*"
         ],
 ```
+
+### Vim EasyMotion Bindings
+```javascript
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]     
+        }
+    ]
+```
