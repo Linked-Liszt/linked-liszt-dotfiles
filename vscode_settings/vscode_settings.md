@@ -34,15 +34,16 @@
         ],
 ```
 
-### Vim EasyMotion Bindings
+### Vim Settings
 ```javascript
     "vim.easymotion": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [" "],
-            "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]     
+            "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]
         }
     ],
     "vim.easymotionMarkerBackgroundColor": "#ab5607",
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "vim.hlsearch": true
 ```
