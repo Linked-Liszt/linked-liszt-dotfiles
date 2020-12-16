@@ -4,7 +4,6 @@ set nocompatible
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
-" TODO: Load plugins here (pathogen or vundle)
 
 " Turn on syntax highlighting
 syntax on
@@ -91,22 +90,15 @@ set listchars=tab:▸\ ,eol:¬
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color Scheme
-colorscheme monokai
+colorscheme default
 
 " Font
 if has("gui_running")
 if has("gui_gtk2")
-  set guifont=Inconsolata\ 12
+  set guifont=Inconsolata\ 14
 elseif has("gui_macvim")
   set guifont=Menlo\ Regular:h14
 elseif has("gui_win32")
   set guifont=Consolas:h17:cANSI
 endif
 endif
-
-
-
-" Airline
-let g:airline_theme='bubblegum'
-
-
